@@ -34,15 +34,13 @@ const getMealDetails = details =>{
 }
 
 const displayDetails = meal=>{
-    console.log(meal);
     const mealDetails = document.getElementById('mealDetails');
+    showmeal.style.display="none";
     mealDetails.innerHTML = `
             <img src ="${meal.strMealThumb}">
-            <h3>${meal.strMeal}<h3>
-            <p>${meal.strInstructions} </p>
+            <h1>${meal.strMeal}</h1>
+            <p>${meal.strInstructions}</p>
     `
-
-
 }
 
 

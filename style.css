@@ -71,12 +71,27 @@ body{
 #mealDetails{
     max-width: 800px;
     margin: auto;
-    color: tomato;
+    color: white;
+    background-color: grey;
+    border-radius: 10px;
+  
     
 }
 #mealDetails img{
+    margin-top: 20px;
     width: 320px;
     height: 200px;
     border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#mealDetails h1{
+    color: gold;
+    margin-bottom: 5px;
+}
+#mealDetails p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
 }
 
